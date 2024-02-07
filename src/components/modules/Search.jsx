@@ -16,7 +16,6 @@ function Search({ currency, setCurrency }) {
       setIsLoading(false);
       return;
     }
-
     const searchCoin = async () => {
       try {
         const res = await fetch(search(text), { signal: controller.signal });
