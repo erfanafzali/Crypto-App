@@ -11,6 +11,7 @@ import {
   YAxis,
 } from "recharts";
 
+
 function Chart({ chart, setChart }) {
   const [type, setType] = useState("prices");
 

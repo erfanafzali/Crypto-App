@@ -2,8 +2,8 @@ import HomePage from "./components/template/HomePage";
 
 function App() {
   return (
-    <div>
-      <HomePage />
+    <div className="container mx-auto">
+      <HomePage /> 
     </div>
   );
 }
