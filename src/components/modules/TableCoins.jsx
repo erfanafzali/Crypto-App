@@ -16,7 +16,7 @@ function TableCoins({ coins, setCurrency, currency, setChart }) {
             <th className="text-start"></th>
           </tr>
         </thead>
-        <tbody className="w-full">
+        <tbody className="w-full"> 
           {coins.map((coin) => (
             <TableRow
               setChart={setChart}
@@ -31,6 +31,9 @@ function TableCoins({ coins, setCurrency, currency, setChart }) {
     </div>
   );
 }
+  
+
+
 
 export default TableCoins;
 
